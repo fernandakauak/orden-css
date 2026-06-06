@@ -1,0 +1,61 @@
+.card {
+    width: 500px;
+    height: auto;
+    padding: 2%;
+    background-color: gray;
+    border: 2px solid darkslategray;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.card__header {
+
+}
+
+.card__avatar {
+
+}
+
+.card__author {
+
+}
+
+.card__name {
+
+}
+
+.card__bio {
+
+}
+
+.card__bio--featured {
+
+}
+
+.card__info {
+
+}
+
+.card__following {
+
+}
+
+.card__followers {
+
+}
+
+.card__posts {
+
+}
+
+.card__actions {
+
+}
+
+.card__button {
+
+}
+
+.card__button--featured {
+
+}

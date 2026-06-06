@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM - Orden CSS</title>
+
+    <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
-    
+    <main>
+        <article class="card">
+            <div class="card__header">
+                <div class="card__avatar">DM</div>
+            </div>
+            <div class="card__author">
+                <div class="card__name">Domingo Maivia</div>
+                <div class="card__bio">Escribo sobre lucha libre, trenes y barros luco.</div>
+                <div class="card__bio card__bio--featured">Escritor del mes.</div>
+            </div>
+            <div class="card__info">
+                <div class="card__following"> </div>
+                <div class="card__followers"> </div>
+                <div class="card__posts"> </div>
+            </div>
+            <div class="card__actions">
+                <button class="card__button card__button--featured">Seguir</button>
+                <button class="card__button">Mensaje</button>
+            </div>
+        </article>
+    </main>
 </body>
 </html>
