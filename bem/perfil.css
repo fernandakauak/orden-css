@@ -38,9 +38,11 @@
     font-weight: bold;
 }
 
-/*.card__author {
-
-}*/
+.card__author {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 .card__bio {
     margin: 10px 0;
@@ -53,10 +55,6 @@
     background-color: #5fe5ba;
     border-radius: 20px;
 }
-
-/*.card__info {
-
-}*/
 
 .card__following {
     width: 30%;
@@ -76,14 +74,19 @@
     float: left;
 }
 
-/*.card__actions {
+.card__button {
+    width: 100%;
+    background-color: blue;
+    padding: 5px;
+    border: 0;
+    color: white;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
-}*/
-
-/*.card__button {
-
-}*/
-
-/*.card__button--featured {
-
-}*/
+.card__button--featured {
+    background-color: skyblue;
+    color: blue;
+}
