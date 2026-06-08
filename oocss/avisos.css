@@ -1,0 +1,49 @@
+.globalwidth {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    /* centrado */
+    position: relative;
+    /* contexto de posicionamiento */
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    /* corrección de floats (clear) */
+}
+
+.aviso {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid gray
+}
+
+.aviso__title {
+
+}
+
+.aviso__mensaje {
+
+}
+
+.aviso__aside {
+
+}
+
+.skin-success {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.skin-warning {
+    background-color: lightyellow;
+    border-color: orangered;
+}
+
+.skin-error {
+    background-color: lightcoral;
+    background-color: red;
+}
+
+.skin-info {
+    background-color: lightblue;
+}
